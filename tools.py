@@ -5,7 +5,7 @@ from keys import get_keys
 def get_places():
 	url = "https://api.airtable.com/v0/appOiWDhJmuDQTTpm/Table%201?"
 	headers = {
-		"Authorization": f"Bearer {get_keys()}"
+		"Authorization": f"Bearer {get_keys()['airtable']}"
 	}
 
 	res = req.get(url, headers = headers)

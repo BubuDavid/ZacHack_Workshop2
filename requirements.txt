@@ -1,5 +1,2 @@
 fastapi
-python-decouple
-starlette
-pydantic
 requests
